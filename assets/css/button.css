@@ -1,0 +1,27 @@
+button {
+  margin: auto;
+  position: relative;
+  display: block;
+  font-weight: 100;
+  background: #ffffff;
+  border: 1px solid #ffb03b;
+  text-decoration: none;
+  color: #ffb03b;
+  padding: 15px 20px;
+  transition: 0.225s ease all;
+  overflow: hidden;
+  will-change: transform;
+  box-shadow: 3px 3px 0px rgba(249,105,14,0.1 );
+}
+button:hover, button:focus {
+  cursor: pointer;
+  transform: translate(-4px, -4px);
+  box-shadow: 7px 7px 0px rgba(249,105,14,0.1 );
+  color: #ffb03b;
+}
+button.clicked {
+  cursor: pointer;
+  transform: translate(3px, 3px) !important;
+  box-shadow: 0px 0px 0px #3db74e !important;
+  border: 1px solid rgba(61, 183, 78, 0.5);
+}

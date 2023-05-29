@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Mr Kottu About</title>
+
+  <link href="assets_for_home/img/Mr.K logo.JPG" rel="icon">
+  <link href="assets_for_home/img/Mr.K logo.JPG" rel="apple-touch-icon">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<style type="text/css">
+  
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap');
+
+:root{
+--color: #333; 
+}
+
+html::-webkit-scrollbar {
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: var(--white);
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: #fdb713;
+    border-radius: 5rem;
+}
+
+body {
+  font-family: 'Red Hat Text', sans-serif;
+}
+
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: #ffb03b;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.back-to-top i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back-to-top:hover {
+  background: #ffc064;
+  color: #fff;
+}
+
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.container {
+  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('assets_for_home/img/About_Page/Banner2-min.png');
+   background-color: rgba(39, 37, 34, 0.8);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  
+/*  this is where the magic happens:  */
+  background-attachment: fixed;
+}
+
+h1 {
+  font-weight: 750;
+  font-size: 8rem;
+  color:white;
+
+}
+
+p {
+  max-width: 80ch;
+  line-height: 1.5;
+  padding: 1em;
+  color:ghostwhite;
+}
+
+a {
+  display: inline-block;
+  padding: 1em 3.5em;
+  background-color: #2b2726;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 0.3em;
+  font-weight: 700;
+  letter-spacing: .5px;
+  font-size: .875rem;
+}
+
+.blank,
+.other {
+  width: 100%;
+  min-height: 60vh;
+  background-color: var(--color);
+}
+
+.second {
+  background-image:url('assets_for_home/img/About_Page/2ndbanner.png');
+  background-attachment: fixed;
+  height: 1200px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin-top: 1em;
+}
+
+.card > a {
+  margin-bottom: 2em;
+}
+
+.item {
+  display: flex;
+  max-width: 320px;
+  background-color: white;;
+  flex-direction: column;
+  align-items: center;
+  border-radius: .5em;
+  -webkit-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+  -moz-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+  box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+}
+
+.img {
+  width: 90%;
+  height: 300px;
+  background-color: lightgrey;
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px;
+  border-radius: .3em;;
+}
+
+.img-first {
+  background-image: url(assets_for_home/img/About_Page/IMG-20230108-WA0023-min.jpg);
+}
+
+.img-second {
+  background-image: url(assets_for_home/img/About_Page/founder-min.jpg);
+}
+
+.img-third {
+  background-image: url();
+}
+
+.second {
+  flex-direction: row;
+  gap: 1.6em;
+}
+
+.blank1{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+</style>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <h1>Welcome To <br> Mr Kottu</h1>
+  <p>"Life Is A Combination Of Magic And Kottu"</p>
+  <a href="#nextpage">Learn More</a>
+</div>
+
+<div class="blank">
+<iframe width="100%" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15814.402841361496!2d81.6891585!3d7.725917!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8b08c49f42497318!2sMr%20Kottu!5e0!3m2!1sen!2slk!4v1676128700077!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<img class="bd-placeholder-img bd-placeholder-img-lg img-fluid" width="100%" height="600" src="assets_for_home/img/About_Page/banner.jpg" role="img" aria-label="Placeholder: Responsive image" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"/>
+
+</div>
+
+<div class="container second" id="nextpage">
+  <div class="item">
+    <div class="img img-first"></div>
+    <div class="card">
+      <h3>Chef Bonnie</h3>
+      <p style="color:white;">The goal is to reach the summit of a formation or the endpoint of a usually pre-defined route without falling</p>
+    </div>
+  </div>
+  <div class="item">
+    <div class="img img-second"></div>
+    <div class="card">
+      <h3>Founder Mr Abilash</h3>
+      <p style="color:white;">Exploring underground through networks of tunnels and passageways, which can be natural or artificial.</p>
+    </div>
+  </div>
+</div>
+
+<div>
+  <img class="bd-placeholder-img bd-placeholder-img-lg img-fluid" width="100%" height="850" src="assets_for_home/img/About_Page/About 01-min.jpg" role="img" aria-label="Placeholder: Responsive image" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"/>
+</div>
+<!-- partial -->
+  
+</body>
+</html>
